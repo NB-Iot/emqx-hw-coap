@@ -1,0 +1,23 @@
+{mapping, "coap_hw.port", "emqx_hw_coap.port", [
+  {datatype, integer}
+]}.
+
+
+{mapping, "coap_hw.keepalive", "emqx_hw_coap.keepalive", [
+  {default, "120s"},
+  {datatype, {duration, s}}
+]}.
+
+
+{mapping, "coap_hw.keyfile", "emqx_hw_coap.keyfile", [
+  {datatype, string}
+]}.
+
+{mapping, "coap_hw.certfile", "emqx_hw_coap.certfile", [
+  {datatype, string}
+]}.
+
+{mapping, "coap_hw.enable_stats", "emqx_hw_coap.enable_stats", [
+  {datatype, flag}
+]}.
+

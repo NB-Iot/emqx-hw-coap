@@ -1,0 +1,17 @@
+deps/
+_rel/
+.erlang.mk/
+*.d
+*.o
+*.exe
+data/
+*.iml
+.idea/
+logs/
+*.beam
+emq_coap.d
+
+intergration_test/emqx-rel/
+intergration_test/libcoap/
+intergration_test/case*.txt
+
